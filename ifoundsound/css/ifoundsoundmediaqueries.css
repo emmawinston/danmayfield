@@ -1,0 +1,127 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 1175px) {
+	#wrapper {
+	width: 60%;
+	}
+}
+
+@media (max-width: 1082px) {
+	#wrapper {
+	width: 65%;
+	}
+}
+
+@media (max-width: 986px) {
+	#wrapper {
+	width: 70%;
+	}
+}
+
+@media (max-width: 917px) {
+	#wrapper {
+	width: 72%;
+	}
+}
+
+@media (max-width: 891px) {
+	#wrapper {
+	width: 77%;
+	}
+}
+
+@media (max-width: 843px) {
+	#wrapper {
+	width: 80%;
+	}
+}
+
+@media (max-width: 803px) {
+	#wrapper {
+	width: 85%;
+	}
+}
+
+@media (max-width: 757px) {
+	#wrapper {
+	width: 90%;
+	}
+}
+
+@media (max-width: 717px) {
+	#wrapper {
+	width: 95%;
+	}
+}
+
+@media (max-width: 678px) {
+	.nav a {
+	padding: 1em 1.5em;
+	}
+}
+
+@media (max-width: 678px) {
+	body {
+	overflow-x: hidden;
+	}
+
+	#wrapper {
+	width: 100%;
+	}
+
+	#header {
+	margin-top: 0em;
+	}
+
+}
+
+@media (max-width: 556px) {
+	#header {
+	background: #3a7195 url(../images/logo.gif) no-repeat 86% 93%;
+	}
+
+	#wrapper {
+	padding-top: 0em;
+}
+
+	#footer {
+	margin-top: 0px; /* negative value of footer height */
+	} 
+}
+
+@media (max-width: 436px) {
+	#header h1 {
+	margin-top: 0.5em;
+	text-align: center;
+	}
+
+	#header {
+	background: #3a7195 url(../images/logo.gif) no-repeat bottom center;
+	}
+}
+
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+
+	#wrapper {
+	width: 100%;
+	}
+
+		#header h1 {
+	margin-top: 0.5em;
+	text-align: center;
+	}
+
+	#header {
+	margin-top: 0em;
+	background: #3a7195 url(../images/logo.gif) no-repeat bottom center;
+	}
+
+	#footer {
+	margin-top: 0px; /* negative value of footer height */
+	} 
+}

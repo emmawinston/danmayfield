@@ -1,0 +1,317 @@
+/* MEDIA QUERIES */
+
+/* global media query transitions */
+		body { 
+		transition:all .4s linear; 
+		-o-transition:all .4s linear; 
+		-moz-transition:all .4s linear; 
+		-webkit-transition:all .4s linear; 
+		}
+
+/* navigation menu breakpoints ------ */
+@media (max-width: 939px) {
+	.menu a {
+    padding-left: 2%;
+	padding-right: 2%;
+	}	
+}
+
+@media (max-width: 825px) {
+	.menu a {
+    padding-left: 1.8%;
+	padding-right: 1.8%;
+	}
+}
+
+
+@media (max-width: 808px) {
+	.menu a {
+    padding-left: 1.5%;
+	padding-right: 1.5%;
+	}
+}
+
+@media (max-width: 776px) {
+	.menu a {
+    padding-left: 1.2%;
+	padding-right: 1.2%;
+	}
+}
+
+@media (max-width: 753px) {
+	.menu a {
+    padding-left: 1%;
+	padding-right: 1%;
+	}
+}
+
+@media (max-width: 733px) {
+	.menu li {
+	font-size: 1.5em;
+	}
+}
+
+@media (max-width: 618px) {
+	.menu a {
+    padding-left: 0.7%;
+	padding-right: 0.7%;
+	}	
+}
+
+
+
+/* desktop splash image resize ---------*/
+@media (max-width: 670px) {
+	#contenthome img.room {
+	width: 480px;
+	height: auto;
+	}
+}
+
+@media (min-height: 630px) and (min-width: 715px) {
+	#contenthome img.room {
+	width: 580px;
+	height: auto;
+	}
+}
+
+@media (min-height: 630px) and (max-width: 733px) {
+	#contenthome img.room {
+	width: 550px;
+	height: auto;
+	}
+}
+
+
+@media (min-height: 630px) and (max-width: 675px) {
+	#header {
+	margin-bottom: 1.5em;
+	}
+	
+	#contenthome img.room {
+	width: 480px;
+	height: auto;
+	}
+}
+
+@media (min-height: 650px) {
+	#header {
+	margin-bottom: 2em;
+	}
+		
+	
+	#contenthome img.room {
+	width: 550px;
+	height: auto;
+	}
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	#header {
+	margin-bottom: 2em;
+	}
+}
+
+
+
+/* menu reshuffle ------ */
+@media (max-width: 600px) {
+	.menu li {
+	float: none;
+	margin: 0em auto 0em auto;
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	}
+
+	.menu {
+	margin-top: 0em;
+	margin-bottom: 0.4em;
+	}
+	
+	#wrap {
+	width: 95%;
+	}
+
+	#contenthome img.room {
+	width: 60%;
+	max-width: 1020px;
+	}
+}
+
+
+
+/* small screen display -------- */
+@media (max-width: 600px) {
+	
+	#uke {
+	display: none;
+	}
+
+	#mobilecontent {
+	display: block;
+	}
+
+	#header {
+	margin-top: 1em;
+	margin-bottom: 0em;
+	}
+
+	#contenthome img.room {
+	display: none;
+	}
+
+	#mobilecontent img.mobile {
+	width: 205px;
+	height: auto;
+	}
+	
+	#content, #contenthome {
+	margin-top: -0.2em;
+	}
+
+	#contenthome {
+	display: none;
+	}
+
+	#mobilefooter {
+	display: block;
+	text-align: center;
+	width: 70%;
+	left: 50%;
+	margin-left: -35%;
+	bottom: 0;
+	position: absolute; display: block; height: 1.5em; padding-bottom: 2em;
+	margin-top: 1em;
+	}
+
+
+	#mobilefooter h3, #mobilefooter h4 { 
+	display: block;
+	text-align: center;
+	padding: 0;
+	}
+
+}
+
+	@media (max-width: 320px) {
+	body {
+	overflow-x: hidden;
+	}
+
+}
+
+	@media only screen and (min-width: 321px) {
+	body {
+	overflow-x: hidden;
+	}
+}
+
+
+
+
+
+
+/*  /* content reshuffling --------*/
+	h2 {
+	padding: 1.2em 0 0.3em 1em;
+	}
+
+	p {
+	padding: 1em 2em 2em 2em;
+	}
+
+	q {
+	margin: 0em 2em 0em 2em;
+	}
+
+	cite {
+	margin: 0.2em 2em 1.5em 2em;
+	}
+}
+ */
+
+
+/* ----------------- SPECIFIC DEVICES ----------------- */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px),
+only screen and (min-width : 321px),
+only screen and (min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 2) {
+	
+/* general display characteristics */
+	body {
+	overflow-x: hidden;
+	}
+
+	#wrap {
+	width: 95%;
+	}
+
+	#uke {
+	display: none;
+	}
+
+	#mobilecontent {
+	display: block;
+	}
+
+	#mobilecontent img.mobile {
+	width: 66%;
+	}
+
+	#header {
+	margin-top: 1em;
+	margin-bottom: 0em;
+	}
+
+	#contenthome img.room {
+	display: none;
+	}
+	
+	#content, #contenthome {
+	margin-top: -0.2em;
+	}
+
+
+/* content --------*/
+	h2 {
+	padding: 1.2em 0 0.3em 1em;
+	}
+
+	p {
+	padding: 1em 2em 2em 2em;
+	}
+
+	q {
+	margin: 0em 2em 0em 2em;
+	}
+
+	cite {
+	margin: 0.2em 2em 1.5em 2em;
+	}
+
+
+/* vertical navigation */
+	.menu li {
+	float: none;
+	margin: 0em auto 0em auto;
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	}
+
+	.menu {
+	margin-top: 0em;
+	margin-bottom: 0.4em;
+	}
+
+}

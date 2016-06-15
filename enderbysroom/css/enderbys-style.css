@@ -1,0 +1,411 @@
+/* CSS copyright Emma Winston on behalf of Enderby's Room 2013 http://www.emmawinston.co.uk */
+
+
+/* ------------------------------------ BEGIN RESET --------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------- END RESET --------------- */
+
+
+
+/* -------------------------------- BEGIN STYLESHEET -------------------------------- */
+
+
+
+/* ------------- GENERAL STYLING --------------- */
+
+html, body {
+	height: 100%;
+	}
+
+body {
+	background: url(../images/paper_fibers.png);
+}
+
+#wrapper {
+	min-height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	}
+
+
+
+
+/*  ------------- HEADER STYLING --------------- */
+	
+#header {
+	text-align: center;
+	padding: 0.5em 0 0.5em 0;
+	margin: -0.6em 0 -0.8em 0;
+}
+
+#uke img {
+	width: 8em;
+	height: auto;
+	}
+
+#uke {
+	margin: 0.6em 0 -3em -22em;
+}
+
+h1 {
+	font-family: 'Special Elite', Courier;
+	font-size: 2.8em;
+	color: #333;
+}
+
+#mobilecontent {
+	margin: 0 auto;
+	display: none;
+}
+
+
+
+
+/* ------------------- NAV STYLING -------------------- */
+
+#nav {
+	width: 100%;
+	clear: left;
+	position: relative;
+	z-index: 2;
+	display: block;
+}
+
+.menu li {
+	font-family: 'Special Elite', Courier;
+	color: #333;
+	font-size: 1.8em;
+	display: inline;
+}
+
+.menu {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.menu a {
+    display: inline-block;
+    padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1em;
+}
+
+
+
+/* ----------------------- LINK STYLING ------------------- */
+
+h1 a:link {color: #333; text-decoration: none;}
+h1 a:visited {color: #333; text-decoration: none;}
+h1 a:active {color: #333; text-decoration: none;}
+h1 a:hover {color: #000; text-decoration: none;}
+h1 a:focus {color: #000; text-decoration: none;}
+
+h3 a:link {color: #333; text-decoration: none;}
+h3 a:visited {color: #333; text-decoration: none;}
+h3 a:active {color: #333; text-decoration: none;}
+h3 a:hover {color: #000; position: relative;
+  top: 1px; text-decoration: none;}
+h3 a:focus {color: #000; position: relative;
+  top: 1px; text-decoration: none;}
+
+p a:link {color: #333;}
+p a:visited {color: #333;}
+p a:active {color: #333;}
+p a:hover {color: #000; position: relative;
+  top: 1px;}
+p a:focus {color: #000; position: relative;
+  top: 1px;}
+
+ul li a:link {color: #333; text-decoration: none;}
+ul li a:visited {color: #333; text-decoration: none;}
+ul li a:active {color: #333; text-decoration: none;}
+ul li a:hover {color: #000; position: relative;
+  top: 1px; text-decoration: none;}
+ul li a:focus {color: #000; position: relative;
+  top: 1px; text-decoration: none;}
+
+
+
+
+/* ------------- CONTENT STYLING ------------- */
+
+#content, #contenthome {
+	width: 90%;
+	min-height: 350px;
+	margin: 0 auto;
+	margin-top: -0.4em;
+	padding-bottom: -100px;
+	background: #f9f9f9;
+	position: relative;
+	z-index: 1;
+	-moz-box-shadow: 0 1px 7px rgba(156,156,156,.6);
+	-webkit-box-shadow: 0 1px 7px rgba(156,156,156,.6);
+	box-shadow: 0 1px 7px rgba(156,156,156,.6); 
+}
+
+#content p img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 0;
+	width: 60%;
+	height: auto;
+}
+
+#contenthome img.room {
+	display: block;
+	width: 495px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+iframe {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+
+#songkick {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding-bottom: 8em;
+}
+
+#mobilecontent {
+	padding-bottom: -0px;
+}
+
+#mobilecontent img.mobile {
+	display: block;
+	width: 48%;
+	height: auto;
+	margin: 0 auto;
+}
+	
+
+
+
+/* ------------ FOOTER STYLING ---------- */
+
+#main {
+	overflow:auto;
+	padding-bottom: 40px;
+	}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	margin-top: -40px; /* negative value of footer height */
+	height: 40px;
+	clear:both;
+	text-align: center;
+} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+
+/* --------- FONT STYLING ----------- */
+
+h2 {
+	font-family: 'Special Elite', Courier;
+	font-size: 2em;
+	padding: 1.8em 0 0.5em 1.8em;
+	color: #333;
+}
+
+#footer h3 { 
+	font-family: 'Special Elite', Courier;
+	font-size: 1em;
+	padding: 0.2em;
+	color: #333;
+}
+
+#footer h4 { 
+	font-family: 'Special Elite', Courier;
+	font-size: 0.8em;
+	color: #333;
+}
+
+p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 1em;
+   	font-weight: 300;
+	line-height: 1.3em;
+	color: #333;
+	text-align: justify;
+	padding: 1em 4em 2em 4em;
+}
+
+p:last-child {
+	padding-bottom: 3.5em;
+}
+
+q {
+	quotes: "\201C" "\201D";
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	display: block;
+	font-size: 1em;
+   	font-weight: 300;
+	line-height: 2em;
+	text-align: center;
+	margin: 0em 5em 0em 5em;
+	color: #333;
+}
+
+q:before { 
+	content: open-quote; 
+	font-family: 'Special Elite', Courier;
+	font-size: 2em;
+	padding-top: 0.2em;
+	color: #333;	
+} 
+
+q:after { 
+	content: close-quote;
+	font-family: 'Special Elite', Courier;
+	font-size: 2em; 
+	color: #333;
+} 
+
+cite {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	display: block;
+	font-size: 1em;
+   	font-weight: 300;
+	font-style: italic;
+	line-height: 1em;
+	text-align: center;
+	margin: 0.2em 6em 1.5em 6em;
+	color: #333;
+}
+
+/* --------- FORM STYLING ----------- */
+
+#contactform {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	margin-top: 2em;
+}
+
+form label {
+	float: left;
+	clear: left;
+	margin-left: 2.5em;
+	width: 20%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 1em;
+   	font-weight: 300;
+	line-height: 1.5em;
+	color: #333;
+	
+}
+
+input {
+	padding: 0.5em;
+	width: 45%;
+	margin-bottom: 1.5em;
+	margin-left: 1.6em;
+	margin-right: 1.6em;
+	color: #333;
+	background-color: #f9f9f9;
+}
+
+textarea {
+	width: 45%;
+	padding: 0.5em;
+	margin-left: 1.4em;
+	margin-right: 1.4em;
+	background-color: #f9f9f9;
+}
+
+input[type=submit] {
+	display: block;
+	background-color: #f9f9f9;
+	color: #000;
+	border: 1px solid #999;
+	width: 20%;
+	min-width: 100px;
+	margin: 0 auto;
+	margin-top: 1em;
+	font-family: 'Special Elite', Courier;	
+	font-size: 1em; 
+}
+
+input {border: 1px solid #999;}
+input:hover {border: 1px solid #000;}
+input:focus {border: 1px solid #000;}
+textarea {border: 1px solid #999;}
+textarea:hover {border: 1px solid #000;}
+textarea:focus {border: 1px solid #000;}
+input[type=submit]:hover {border: 1px solid #000;}
+
+canvas {
+    -ms-touch-action: double-tap-zoom;
+}
+
+/* --------- END STYLESHEET ---------- */

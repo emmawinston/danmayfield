@@ -1,0 +1,195 @@
+/* CSS copyright Emma Winston on behalf of Dan Mayfield 2013 http://www.emmawinston.co.uk */
+
+
+/* ------------------------------------ BEGIN RESET --------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------- END RESET --------------- */
+
+
+
+/* -------------------------------- BEGIN STYLESHEET -------------------------------- */
+
+html, body {
+	height: 100%;
+	}
+
+body {
+	background: url(../images/lightpaperfibers.png);
+	font-family: Baskerville, Georgia, Times; 
+   font-weight: 300;
+	color: #6e2931;
+}
+
+#wrapper {
+	min-height: 100%;
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: -10px;
+	}
+
+#container {
+	clear: both;
+}
+
+/* HEADER STYLING */
+
+#header h1 {
+	font-family: 'Fredericka the Great', sans-serif;	font-size: 3.2em;
+	padding: 0.6em 0 0.5em 0.75em;
+	text-align: center;
+	}
+
+
+/* NAV STYLING */
+
+.nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	font-size: 1.2em;
+}
+.nav li {
+    display:inline;
+}
+.nav a {
+    display:inline-block;
+    padding: 0em 1.2em;
+}
+
+#nav a:link, h4 a:link {color:#6e2931; text-decoration: none; font-weight: bold;}
+#nav a:visited, h4 a:visited {color:#6e2931; text-decoration: none; font-weight: bold;}
+#nav a:active, h4 a:active {color:#6e2931; text-decoration: none; font-weight: bold;}
+#nav a:hover, h4 a:hover {color:#6e2931; position: relative; top: 1px; text-decoration: none; font-weight: bold;}
+#nav a:focus, h4 a:focus {color:#6e2931; position: relative; top: 1px; text-decoration: none; font-weight: bold;}
+
+
+/* LOGO STYLING */
+
+#logo {
+	width: 30%;
+	max-width: 177px;
+	float: left;
+	margin-top: 1em;
+}
+
+#logo h3 {
+	font-size: 0.75em;
+	text-align: center;
+}
+
+
+/* CONTENT STYLING */
+
+#content { width: 70%;
+	height: 100%;
+	float: right;
+	text-align: center;
+
+}
+
+#content h2 {
+	font-family: 'Fredericka the Great', sans-serif;
+	font-size: 2.5em;
+	padding: 1em;
+}
+
+#content li {
+	font-size: 1.3em;
+	padding: 0.75em;
+}
+
+#content ul li a:link {color:#6e2931; text-decoration: none;}
+#content ul li a:visited {color:#6e2931; text-decoration: none;}
+#content ul li a:active {color:#6e2931; text-decoration: none;}
+#content ul li a:hover {color:#6e2931; position: relative; top: 1px; text-decoration: underline;}
+#content ul li a:focus {color:#6e2931; position: relative; top: 1px; text-decoration: underline;}
+
+a:link,
+a:visited,
+a:active {color:#6e2931; text-decoration: none; font-size: 1.3em;
+	padding: 0.75em;}
+
+a:hover,
+a:focus {color:#6e2931; text-decoration: none; font-size: 1.3em;
+	padding: 0.75em;}
+
+
+/* ------------ FOOTER STYLING ---------- */
+
+#main {
+	overflow:auto;
+	padding-bottom: 10px;
+	}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	width: 55%;
+	margin: 0 auto;
+	margin-top: -60px; /* negative value of footer height */
+	height: 40px;
+	padding: 0 0 40px 0;
+	clear:both;
+	text-align: center;
+} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+	
+

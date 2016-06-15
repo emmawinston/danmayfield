@@ -1,0 +1,188 @@
+/* CSS copyright Emma Winston on behalf of Dan Mayfield 2013 http://www.emmawinston.co.uk */
+
+
+/* ------------------------------------ BEGIN RESET --------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------- END RESET --------------- */
+
+
+
+/* -------------------------------- BEGIN STYLESHEET -------------------------------- */
+
+html, body {
+	height: 100%;
+	}
+
+body {
+	background: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 55%;
+	padding-top: 2.2em;
+}
+
+
+
+/* HEADER STYLING */
+
+#header {
+	width: 95%;
+	height: 100px;
+	background: #3a7195 url(../images/logo.gif) no-repeat 98% 93%;
+	padding: 1em;
+}
+
+#header h1 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 400;
+	font-size: 1.5em;
+	color: #ffffff;
+	margin-top: 80px;
+}
+
+	}
+
+
+
+/* NAV STYLING */
+
+#nav {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+	text-align: center;
+}
+.nav li {
+    display:inline;
+}
+.nav a {
+    display:inline-block;
+    padding: 1em 2em;
+	font-size: 1.2em;
+}
+
+#nav a:link, h3 a:link {color:#3a7195; text-decoration: none; font-weight: 400;}
+#nav a:visited, h3 a:visited {color:#3a7195; text-decoration: none; font-weight: 400;}
+#nav a:active, h3 a:active {color:#3a7195; text-decoration: none; font-weight: 400;}
+#nav a:hover, h3 a:hover {color:#3a7195; position: relative; top: 1px; text-decoration: none; font-weight: 400;}
+#nav a:focus, h3 a:focus {color:#3a7195; position: relative; top: 1px; text-decoration: none; font-weight: 400;}
+
+
+
+/* CONTENT STYLING */
+
+h2 {
+	margin: 0.7em;
+	font-size: 1.2em;
+}
+
+p { 
+	margin: 1em;
+	line-height: 1.2em;
+}
+
+.caption {
+margin-top: 0em;
+padding-bottom: 2em;
+text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.festivals {
+	display: inline;
+}
+
+
+
+/* FOOTER STYLING */
+
+html, body {height: 100%;
+	overflow-x: hidden;
+}
+
+#wrapper {min-height: 90%;
+		}
+
+#main {overflow:hidden;
+	padding-bottom: -10px;}  /* must be same height as the footer */
+
+#footer {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	margin-top: -20px; /* negative value of footer height */
+	height: 10px;
+	clear:both;
+	text-align: center;} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
